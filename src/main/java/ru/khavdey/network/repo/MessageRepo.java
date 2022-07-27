@@ -1,4 +1,4 @@
-package ru.khavdey.network.exception;
+package ru.khavdey.network.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import ru.khavdey.network.domain.Message;

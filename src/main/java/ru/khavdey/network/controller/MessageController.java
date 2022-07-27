@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import ru.khavdey.network.domain.Message;
 import ru.khavdey.network.domain.Views;
-import ru.khavdey.network.exception.MessageRepo;
+import ru.khavdey.network.repo.MessageRepo;
 
 import java.time.LocalDateTime;
 import java.util.List;

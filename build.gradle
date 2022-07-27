@@ -1,5 +1,5 @@
 plugins {
-    id 'org.springframework.boot' version '2.7.2'
+    id 'org.springframework.boot' version '2.6.8'
     id 'io.spring.dependency-management' version '1.0.12.RELEASE'
     id 'java'
 }
@@ -21,6 +21,8 @@ dependencies {
     implementation 'javax.xml.bind:jaxb-api'
     implementation 'com.sun.xml.bind:jaxb-core:4.0.0'
     implementation 'com.sun.xml.bind:jaxb-impl:4.0.0'
+    implementation 'org.springframework.boot:spring-boot-starter-security:2.5.4'
+    implementation 'org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.0.RELEASE'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
